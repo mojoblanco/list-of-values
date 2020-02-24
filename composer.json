@@ -1,0 +1,30 @@
+{
+    "name": "mojoblanco/list-of-values",
+    "description": "A laravel package for managing list of values",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Olawale",
+            "email": "mojoblanco@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mojoblanco\\LOV\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mojoblanco\\LOV\\LOVServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
